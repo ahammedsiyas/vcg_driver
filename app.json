@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "VCG Driver",
+    "slug": "vcg-driver",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#007AFF",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vcgtransport.driver"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#007AFF"
+      },
+      "package": "com.vcgtransport.driver"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "abfc2a80-772f-426f-8f0f-b20cfbdf72b7"
+      }
+    }
+  }
+}
